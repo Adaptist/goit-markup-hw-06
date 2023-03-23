@@ -693,6 +693,8 @@ section {
     background-color: var(--color-cornflower);
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
+
+    transition: background-color var(--animation);
 }
 
 .modal-close__icon {
