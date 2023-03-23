@@ -663,8 +663,7 @@ section {
 .modal {
     position: absolute;
     width: 408px;
-    height: 576px;
-    padding: 0 24px;
+    padding: 72px 24px 24px 24px;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
@@ -712,7 +711,6 @@ section {
 
 
 .modal-form__caption {
-    margin-top: 72px;
     margin-bottom: 16px;
     font-weight: 500;
     line-height: calc(24 /16);
