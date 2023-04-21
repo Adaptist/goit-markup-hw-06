@@ -28,6 +28,9 @@ ul, ol {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
+
 }
 
 a {
@@ -254,15 +257,14 @@ section {
     text-align: center;
     padding: 112px 0;
     border-top: 1px solid #e7e9fc;
-    /* background-color: var(--main-color);
+    background-color: var(--color-grey);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-image: linear-gradient(
     rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)
-    ), 
-    url("../images/officework.jpg");
+    rgba(46, 47, 66, 0.7)),
+    url("../");
 }
 /*  */
 @media screen and (min-width: 768px) {
@@ -272,18 +274,24 @@ section {
         text-align: center;
         padding: 112px 0;
         border-top: 1px solid #e7e9fc;
-        /* background-color: var(--main-color);
+        background-color: var(--main-color);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../images/hero/hero.jpg); */
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7) ),
+        url(../images/hero/hero.jpg);
     }
 }
 
 @media screen and (min-width: 1200px) {
     .hero {
         padding: 188px 0;
-        /* background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../images/hero/hero.jpg); */
+        background-image: linear-gradient( 
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7) ),
+        url(../images/hero/hero.jpg);
     }
 }
 
